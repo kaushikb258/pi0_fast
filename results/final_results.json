@@ -1,0 +1,161 @@
+{
+  "selected_on": "2026-10-06",
+  "runs": [
+    {
+      "dataset": "libero",
+      "method": "vla_only",
+      "successes": 91,
+      "episodes": 100,
+      "success_rate": 0.91,
+      "source_result": "evaluation/spatial_20260920_004917/result.json",
+      "source_result_sha256": "48ebb540b9e22523ced049560acea5c24bfc49186202422689baa856f27b3427",
+      "vla_checkpoint": "checkpoints/pi0_fast_libero_spatial_lora/spatial_fast_plus_25k_b8_20260919_163905/24999",
+      "controller": null,
+      "ema_lambda": null,
+      "decode_validation": "legacy-shape-only",
+      "protocol": "Seed 7; first N standard initial states per task; 220 control steps; replan every 5; upstream decode fallback counted.",
+      "interpretation": "historical; before strict UTF-8 decoder validation"
+    },
+    {
+      "dataset": "libero",
+      "method": "vla_ema",
+      "successes": 91,
+      "episodes": 100,
+      "success_rate": 0.91,
+      "source_result": "evaluation/spatial_action_ema_lambda_0.2_residual_beta_0_20261006_152134/result.json",
+      "source_result_sha256": "54ec74c4cb8b6bfb21b3bc4c4cedd0d441bae80a330e9cf339ff98568c85f657",
+      "vla_checkpoint": "checkpoints/pi0_fast_libero_spatial_lora/spatial_fast_plus_25k_b8_20260919_163905/24999",
+      "controller": {
+        "controller": "/home/kb/pi0_fast/checkpoints/libero_residual/libero_residual_25k_decode_checked_20261006_145418/best.pt",
+        "beta": 0.0,
+        "layers": [
+          4,
+          8,
+          12,
+          18
+        ],
+        "layer_weights": [
+          0.243670254945755,
+          0.2695218026638031,
+          0.3208244740962982,
+          0.1659833788871765
+        ],
+        "training_manifest": "278209421041129ebcd54fe20d1abb499d2c95123028ba2adda05f26fa5d31ce",
+        "config": "pi0_fast_libero_spatial_lora"
+      },
+      "ema_lambda": 0.2,
+      "decode_validation": "fast-bytelevel-strict-utf8-v1",
+      "protocol": "Seed 7; first N standard initial states per task; 220 control steps; replan every 5; upstream decode fallback counted.",
+      "interpretation": "selected final control; beta=0; strict decoder"
+    },
+    {
+      "dataset": "libero",
+      "method": "vla_ema_residual",
+      "successes": 96,
+      "episodes": 100,
+      "success_rate": 0.96,
+      "source_result": "evaluation/spatial_action_ema_lambda_0.2_residual_beta_1_20261006_150216/result.json",
+      "source_result_sha256": "12cb43f58dd5b725fd8033c40c885c464595d54cc1439a62298f3866f77d46f0",
+      "vla_checkpoint": "checkpoints/pi0_fast_libero_spatial_lora/spatial_fast_plus_25k_b8_20260919_163905/24999",
+      "controller": {
+        "controller": "/home/kb/pi0_fast/checkpoints/libero_residual/libero_residual_25k_decode_checked_20261006_145418/best.pt",
+        "beta": 1.0,
+        "layers": [
+          4,
+          8,
+          12,
+          18
+        ],
+        "layer_weights": [
+          0.243670254945755,
+          0.2695218026638031,
+          0.3208244740962982,
+          0.1659833788871765
+        ],
+        "training_manifest": "278209421041129ebcd54fe20d1abb499d2c95123028ba2adda05f26fa5d31ce",
+        "config": "pi0_fast_libero_spatial_lora"
+      },
+      "ema_lambda": 0.2,
+      "decode_validation": "fast-bytelevel-strict-utf8-v1",
+      "protocol": "Seed 7; first N standard initial states per task; 220 control steps; replan every 5; upstream decode fallback counted.",
+      "interpretation": "selected final trained controller; beta=1; strict decoder"
+    },
+    {
+      "dataset": "mimicgen",
+      "method": "vla_only",
+      "successes": 72,
+      "episodes": 100,
+      "success_rate": 0.72,
+      "source_result": "evaluation/mimicgen_square_20260921_222237/result.json",
+      "source_result_sha256": "7cad3a7a164fe0f54a47698b567a1e8ef7d0101c69f7c009c4d7b698d068f02c",
+      "vla_checkpoint": "checkpoints/pi0_fast_mimicgen_square_lora/mimicgen_square_fast_plus_continue_60k_b8_20260920_190251/50000",
+      "controller": null,
+      "ema_lambda": null,
+      "decode_validation": "legacy-shape-only",
+      "protocol": "Fresh Square_D0 resets; episode seed=100000+index; 400 control steps; 20Hz; horizon10, execute5; greedy policy; no dummy settling steps; upstream decode fallback retained.",
+      "interpretation": "historical; before strict UTF-8 decoder validation"
+    },
+    {
+      "dataset": "mimicgen",
+      "method": "vla_ema",
+      "successes": 76,
+      "episodes": 100,
+      "success_rate": 0.76,
+      "source_result": "evaluation/mimicgen_square_action_ema_lambda_0.3_20260922_011145/result.json",
+      "source_result_sha256": "31d5e7e5d2adc1aaef8c8210de123be528f8b8fd878bc22e039db8ca630636df",
+      "vla_checkpoint": "checkpoints/pi0_fast_mimicgen_square_lora/mimicgen_square_fast_plus_continue_60k_b8_20260920_190251/50000",
+      "controller": null,
+      "ema_lambda": 0.3,
+      "decode_validation": "legacy-shape-only",
+      "protocol": "Fresh Square_D0 resets; episode seed=100000+index; 400 control steps; 20Hz; horizon10, execute5; greedy policy; no dummy settling steps; upstream decode fallback retained.",
+      "interpretation": "historical; before strict UTF-8 decoder validation"
+    },
+    {
+      "dataset": "mimicgen",
+      "method": "vla_ema_residual",
+      "successes": 83,
+      "episodes": 100,
+      "success_rate": 0.83,
+      "source_result": "evaluation/mimicgen_square_action_ema_lambda_0.3_residual_beta_1.0_20260925_073037/result.json",
+      "source_result_sha256": "8d4d355e94e5256722b16267c00b72131288919deed4831157266f365d82512f",
+      "vla_checkpoint": "checkpoints/pi0_fast_mimicgen_square_lora/mimicgen_square_fast_plus_continue_60k_b8_20260920_190251/50000",
+      "controller": {
+        "controller": "/home/kb/pi0_fast/checkpoints/mimicgen_residual/residual_50k_20260925_072837/best.pt",
+        "beta": 1.0,
+        "layers": [
+          4,
+          8,
+          12,
+          18
+        ],
+        "layer_weights": [
+          0.11602911353111267,
+          0.2175847887992859,
+          0.5623947978019714,
+          0.10399128496646881
+        ],
+        "training_manifest": "e0ac72e2494a7f86d8d45c17ca6370c0f5e3b9fe1099b6a39cf3d9fd6294e46c"
+      },
+      "ema_lambda": 0.3,
+      "decode_validation": "legacy-shape-only",
+      "protocol": "Fresh Square_D0 resets; episode seed=100000+index; 400 control steps; 20Hz; horizon10, execute5; greedy policy; no dummy settling steps; upstream decode fallback retained.",
+      "interpretation": "historical; before strict UTF-8 decoder validation"
+    }
+  ],
+  "libero_paired_outcomes": {
+    "both_success": 87,
+    "control_only": 4,
+    "controller_only": 9,
+    "both_failure": 0
+  },
+  "selected_libero_controller": {
+    "path": "checkpoints/libero_residual/libero_residual_25k_decode_checked_20261006_145418/best.pt",
+    "sha256": "971e1eb9e4d51521eefba1809f3ad53b85343e7ddd26ca9cd6aae616b8ec536b",
+    "best_epoch": 22,
+    "initial_validation_motion_mse": 0.07788139030124025,
+    "best_validation_motion_mse": 0.07701601452776492,
+    "zero_correction_head": false
+  },
+  "limitations": "Final LIBERO control and learned-head runs share checkpoint, EMA, strict decoder and initial-state index protocol. Exact cross-run repeatability remains unresolved. Report 91 to 96 as an observed difference, not an established causal gain. VLA-only LIBERO and all selected MimicGen scores are historical runs, not a freshly rerun six-way controlled comparison.",
+  "excluded_from_final_results": "The earlier LIBERO 97% run used an epoch-0 zero-output controller."
+}

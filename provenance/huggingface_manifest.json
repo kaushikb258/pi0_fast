@@ -1,0 +1,315 @@
+{
+  "repository": "kaushikb258/pi0-fast-libero-mimicgen",
+  "inference_only": true,
+  "files": [
+    {
+      "path": "libero/vla/params/_METADATA",
+      "bytes": 20584,
+      "sha256": "f2f4628b4c3ce7a29b3c24d134e544d90bb42a0a9d57a18c6ca9409ea7c36c37"
+    },
+    {
+      "path": "libero/vla/params/_sharding",
+      "bytes": 10805,
+      "sha256": "90fce71ab69a348536216ba4724c83c1452c89dc4a1a72693b79ff928e6441d3"
+    },
+    {
+      "path": "libero/vla/params/array_metadatas/process_0",
+      "bytes": 7857,
+      "sha256": "78c170f61587ee233ef099ae53c23c0d7a857319ae3b3b11eecab63b90c1baac"
+    },
+    {
+      "path": "libero/vla/params/d/3016085b18dcf11a217edea1f43f271b",
+      "bytes": 1776,
+      "sha256": "9a044260788f0b021cb0fd0d903407aa1e9c2b170ee381d44662f89f24a1e7a3"
+    },
+    {
+      "path": "libero/vla/params/manifest.ocdbt",
+      "bytes": 117,
+      "sha256": "d46a2654a1aa78a8769c1d84ed5bec12656c3c9f98810a975637a60d42055472"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/d/02588533fd27bd684e3a3b2071bae1f2",
+      "bytes": 213,
+      "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/d/07097734e38160bc2c20105cb434d5cc",
+      "bytes": 497034091,
+      "sha256": "70e5dbebbc5673be3061ea642dbce2ca090baa863a072d6a7031b471f4770d3b"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/d/26601ef3537ae6d78bb544dca2d13a33",
+      "bytes": 829783488,
+      "sha256": "68729ddaea71bcd2c8d28a618403ead1ec3afe2329432dacc141be0b02e20e62"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/d/2e2968617cffebfb3b8d8f112bca51cd",
+      "bytes": 1003,
+      "sha256": "530f1074abe3f4936f111b49087a208e2389db05fd05bf475b03ba6e621fabc8"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/d/425fb0908e997cf2e48bd149fa70c122",
+      "bytes": 497207449,
+      "sha256": "f837c7a52bfdf601399b47e09a287e5017c4aaa8635fbb47ef6286d1b1d09f1e"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/d/4c38778319c099dd114505f6be38a48e",
+      "bytes": 650333508,
+      "sha256": "1f1d98490606d18cc10ecb06528e89b2d0425f9170704f99e7e88756d9d90f7e"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/d/4fceda6cf3f67187a6beae742f03e203",
+      "bytes": 1891975661,
+      "sha256": "e6554407815e064520a7d025f312cedd1b52104858f72cdc3bb0b8fae3a56cc4"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/d/59edb676e2a7cd6a3485d1fb0bda18d6",
+      "bytes": 118413737,
+      "sha256": "adf9f0fedeb1e61bac3ca3dc01b91a502070cba1650d8808f72b0d823fa86ae6"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/d/63396759c90d012f88b2337ad50aed46",
+      "bytes": 946234640,
+      "sha256": "3bf3fc11bb1e2d938a898e0eecd4da3aab8467fc93e608b06e74a83371b58295"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/d/897edef19a2d4b3a62aa16d7d03e747b",
+      "bytes": 47172731,
+      "sha256": "1e219a1ee0cfb90087b6b77bfd9325ec62023f78d5d703b3a83248b1624165b1"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/d/96c36b9a5043029f8f9e18f66da4bb09",
+      "bytes": 5350,
+      "sha256": "fc35a2d3c0775f7d837cdb260856ae97b24e47e7385c87e46d513a599e189c35"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/d/d3b9f45806530fc93fb87a28797288e0",
+      "bytes": 99513966,
+      "sha256": "5d3fd14fbd62feb71fb7169d08612475dc836e63fdc125274a499e8a76f92b45"
+    },
+    {
+      "path": "libero/vla/params/ocdbt.process_0/manifest.ocdbt",
+      "bytes": 622,
+      "sha256": "4916496300007d393452649740269c38938cc7e5e411ad62e9af780121f01d71"
+    },
+    {
+      "path": "libero/vla/assets/local/libero_spatial/norm_stats.json",
+      "bytes": 1957,
+      "sha256": "cc07c8cab538aef3aaad0ae283f29e04760419013f441fe07a01fe0633d007c2"
+    },
+    {
+      "path": "libero/vla/_CHECKPOINT_METADATA",
+      "bytes": 426,
+      "sha256": "4f4e062c8f52f44ef384a605b13b5aae04cf5fb377b4625405ab87e529af579d"
+    },
+    {
+      "path": "libero/controller/best.pt",
+      "bytes": 2264810,
+      "sha256": "971e1eb9e4d51521eefba1809f3ad53b85343e7ddd26ca9cd6aae616b8ec536b"
+    },
+    {
+      "path": "mimicgen/vla/params/_METADATA",
+      "bytes": 20584,
+      "sha256": "f2f4628b4c3ce7a29b3c24d134e544d90bb42a0a9d57a18c6ca9409ea7c36c37"
+    },
+    {
+      "path": "mimicgen/vla/params/_sharding",
+      "bytes": 10805,
+      "sha256": "90fce71ab69a348536216ba4724c83c1452c89dc4a1a72693b79ff928e6441d3"
+    },
+    {
+      "path": "mimicgen/vla/params/array_metadatas/process_0",
+      "bytes": 7857,
+      "sha256": "78c170f61587ee233ef099ae53c23c0d7a857319ae3b3b11eecab63b90c1baac"
+    },
+    {
+      "path": "mimicgen/vla/params/d/4342f10be1bb21faac056f6d8f5c0bf7",
+      "bytes": 1778,
+      "sha256": "cb8ed3cf6346b5a13569d88e952cc50e620bbfd15538e082732c8f8d3a78c8a3"
+    },
+    {
+      "path": "mimicgen/vla/params/manifest.ocdbt",
+      "bytes": 117,
+      "sha256": "d62505185b7960db5581fb2e851de514083182601e4819f4981702beb17b1522"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/d/1c24618b1e49ac09f87fe41e51da3d9d",
+      "bytes": 497200305,
+      "sha256": "8ca1e03bb3a6648d5e0b3d66e00a8d85a4f84b6f2fdb1de29a13650e2e780281"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/d/392fb63bf055ff76612674c3c2575296",
+      "bytes": 497028421,
+      "sha256": "b42b80e7e2b7c43567bc564a3d51ba72c7c3d824398239838dd51b4990aee284"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/d/4ecd4d8c234d03764128bdbb70f14712",
+      "bytes": 1891975663,
+      "sha256": "170bfb538f4451222f7a4227c95b673dd22a7e45a2c25c725d46959786f2109e"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/d/6b38f5bceee08729b125b75fa6b2182d",
+      "bytes": 1003,
+      "sha256": "530f1074abe3f4936f111b49087a208e2389db05fd05bf475b03ba6e621fabc8"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/d/7b375d8b53f0d2d9ee8e4f9550dd0247",
+      "bytes": 5338,
+      "sha256": "e1acd9ff6d251a49dfcdcf5a19849bc176f9f580f5f8d431a56ea6acd6706be3"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/d/91860e9f86bfe617c10e4f2cd1b20ad0",
+      "bytes": 829783483,
+      "sha256": "c4ec8f6313383c7f389832e92a5fa00a4257aa7538e81019ef7cdf9d4320bfe4"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/d/94fe19b9f72ac36723149b925e712d77",
+      "bytes": 118287993,
+      "sha256": "1b9d0de3d243ed32ccc4e539fca0bdb34a479bdb840f07b2e4f5354a6158d246"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/d/a465703da45a458537d9b3f14c9ae22c",
+      "bytes": 117067255,
+      "sha256": "e34a9d46205ae980f59babe588935efcb29fe41c42e82eb7fdf92da7019ff9f5"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/d/b7bfc89045743ead51a24807f8975233",
+      "bytes": 29596775,
+      "sha256": "090395b506ececf3f419e76fd6b2bbd4ee15118f11d716b8d4c602c530ec11dc"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/d/bd08f6f0024a5eb33c530f2dd747b88e",
+      "bytes": 946234641,
+      "sha256": "658a438cfeea4c353d30f96d61b411fd18b0c6b410ad1619176e78d55249c1b2"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/d/d02da2829b835e8bda2b5c430388a8e7",
+      "bytes": 213,
+      "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/d/d5ad135866ab5da19cceea078967b220",
+      "bytes": 650458768,
+      "sha256": "2742decc5a8eca0c8f6d68f70be7f9cd1f1fc3e8c94a7ab4e5e7b4eb86c4c1fa"
+    },
+    {
+      "path": "mimicgen/vla/params/ocdbt.process_0/manifest.ocdbt",
+      "bytes": 619,
+      "sha256": "81e4b89a81f196839f4ae4ba9eafd3a37f060ab6a60e5658b97ad7a9b2eb4976"
+    },
+    {
+      "path": "mimicgen/vla/assets/local/mimicgen_square_d0/norm_stats.json",
+      "bytes": 1877,
+      "sha256": "7811b171a5d1f6ce116a247a6a449062b2d63fdee6fde0b8c068b8c49845c4b5"
+    },
+    {
+      "path": "mimicgen/vla/_CHECKPOINT_METADATA",
+      "bytes": 426,
+      "sha256": "b8c88fc4da99b51913c584c0ceb781e861998607ac4881238a3d204429846c0b"
+    },
+    {
+      "path": "mimicgen/controller/best.pt",
+      "bytes": 2264554,
+      "sha256": "82bd0b10d721c1438d5202e02abf94b55957036521ff9d727a4d72efe112a7e9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7307,
+      "sha256": "2c73051b79bea40854355622a8615af0da872a7230c8ac4beae257f7e63562d0"
+    },
+    {
+      "path": "prepare_downloaded_controller.py",
+      "bytes": 4342,
+      "sha256": "151cb921f51a101be60c12896fb5695d53792b1486d58a8684fb6394c1d6e841"
+    },
+    {
+      "path": "licenses/openpi-LICENSE",
+      "bytes": 11356,
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+    },
+    {
+      "path": "results/final_results.json",
+      "bytes": 7503,
+      "sha256": "a3f443da649b38e84c71c5a13dd32bea127c766cd7e50e8b5cfe823486e2f251"
+    }
+  ],
+  "artifacts": {
+    "libero": {
+      "vla": {
+        "original_checkpoint": "/home/kb/pi0_fast/checkpoints/pi0_fast_libero_spatial_lora/spatial_fast_plus_25k_b8_20260919_163905/24999",
+        "remote_path": "libero/vla"
+      },
+      "controller": {
+        "original_path": "/home/kb/pi0_fast/checkpoints/libero_residual/libero_residual_25k_decode_checked_20261006_145418/best.pt",
+        "original_base_checkpoint": "/home/kb/pi0_fast/checkpoints/pi0_fast_libero_spatial_lora/spatial_fast_plus_25k_b8_20260919_163905/24999",
+        "original_feature_code_hash": "62daaf4469184d421d0799c41d1cdb4f211fc0ce99047eb2cddc48fdca75546f",
+        "epoch": 22,
+        "architecture": {
+          "feature_dim": 2048,
+          "num_layers": 4,
+          "horizon": 10,
+          "hidden_dims": [
+            256,
+            128
+          ],
+          "max_normalized_correction": 1.0
+        },
+        "remote_path": "libero/controller/best.pt"
+      }
+    },
+    "mimicgen": {
+      "vla": {
+        "original_checkpoint": "/home/kb/pi0_fast/checkpoints/pi0_fast_mimicgen_square_lora/mimicgen_square_fast_plus_continue_60k_b8_20260920_190251/50000",
+        "remote_path": "mimicgen/vla"
+      },
+      "controller": {
+        "original_path": "/home/kb/pi0_fast/checkpoints/mimicgen_residual/residual_50k_20260925_072837/best.pt",
+        "original_base_checkpoint": "/home/kb/pi0_fast/checkpoints/pi0_fast_mimicgen_square_lora/mimicgen_square_fast_plus_continue_60k_b8_20260920_190251/50000",
+        "original_feature_code_hash": "603f8849f4d8b1cec7ed15dd5128e5c40a1ee6c8b43974abe83b81ec51c393ab",
+        "epoch": 48,
+        "architecture": {
+          "feature_dim": 2048,
+          "num_layers": 4,
+          "horizon": 10,
+          "hidden_dims": [
+            256,
+            128
+          ],
+          "max_normalized_correction": 1.0
+        },
+        "remote_path": "mimicgen/controller/best.pt"
+      }
+    }
+  },
+  "controller_source_provenance": {
+    "original_project": "/home/kb/pi0_fast",
+    "original_conda": "/home/kb/miniconda3",
+    "feature_hash_files": [
+      "openpi/src/openpi/models/gemma_fast.py",
+      "openpi/src/openpi/models/pi0_fast.py",
+      "residual_policy.py"
+    ],
+    "mimicgen_files": [
+      "openpi/src/openpi/models/gemma_fast.py",
+      "openpi/src/openpi/models/pi0_fast.py",
+      "residual_policy.py",
+      "residual_controller.py"
+    ],
+    "libero_files": [
+      "openpi/src/openpi/models/gemma_fast.py",
+      "openpi/src/openpi/models/pi0_fast.py",
+      "residual_policy.py",
+      "residual_controller.py",
+      "libero_residual_policy.py",
+      "libero_residual_data.py"
+    ],
+    "source_sha256": {
+      "openpi/src/openpi/models/gemma_fast.py": "a56fc015a485abcef95624e9761dadb71ba4b4f538bd683aab6247492bb9efb3",
+      "openpi/src/openpi/models/pi0_fast.py": "2dcac559d37af49368228bf1b4c4904217a2f7d059dd72c585f840748c49743f",
+      "residual_policy.py": "b99f7569b048784c77c3eb3b2268f79db7050c3a5d08b16fe255ccbc2ebb64ca",
+      "residual_controller.py": "7e8a760e217b810a3307549b9ad44e375033c057cb56b4b95e22057ed7544490",
+      "libero_residual_policy.py": "09c3031bfd9600cfa86d73ea8da342a684d4587c6a1624b07b73b62d50aa525e",
+      "libero_residual_data.py": "c60f163848684de76616f6eb256da1c5846ae8f8ccb40d6da08901cf5400a7f5"
+    }
+  }
+}

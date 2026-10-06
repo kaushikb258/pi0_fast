@@ -1,0 +1,1278 @@
+{
+  "created": "2026-10-06T03:36:02.273233",
+  "source": "/home/kb/pi0_fast",
+  "upstream_openpi_commit": "215abfb217dbac7d5f1273282331b9b1866c0479",
+  "fast_tokenizer_revision": "ec4d7aa71691cac0b8bed6942be45684db2110f4",
+  "files": [
+    {
+      "path": "ACTION_EMA.md",
+      "bytes": 2175,
+      "sha256": "5f67f0ff5e0a918393578e0aa689ccad0a646ffe5adcf1d0fb780579981973c1"
+    },
+    {
+      "path": "LIBERO_SETUP.md",
+      "bytes": 6858,
+      "sha256": "a8e32ffaf4e24e8f543ec48372279465aa0502302703e7bd7398e10e40f6bdeb"
+    },
+    {
+      "path": "PREFLIGHT.md",
+      "bytes": 4784,
+      "sha256": "eef07055c403819d542829c528460b90455866dcad453e54cbabfee93dbbaed7"
+    },
+    {
+      "path": "README_LIBERO.md",
+      "bytes": 7111,
+      "sha256": "ff78c1d49dff532d1981d0646b62c265ee39fc7c57907e10d37c78837dac36e5"
+    },
+    {
+      "path": "README_LIBERO_RESIDUAL.md",
+      "bytes": 5713,
+      "sha256": "4c808a62df8defa149ad007e264074a8561ed7386c64964a6e60c192d2fe80af"
+    },
+    {
+      "path": "README_MIMICGEN.md",
+      "bytes": 16380,
+      "sha256": "545b5354fb9a1395161e2874e9d8222359d3a2fc4ff29b5346ad843142be0779"
+    },
+    {
+      "path": "README_RESIDUAL_2LAYERS.md",
+      "bytes": 2004,
+      "sha256": "8459f96ec772e9d3684a11af399fab65d9a9c9249cbcb5bfed8851346de77a6b"
+    },
+    {
+      "path": "README_RESIDUAL_5LAYERS.md",
+      "bytes": 2351,
+      "sha256": "0761741b2c8bfd318fb121c75c1626b9c4da4613974fd041f6a5238f87494753"
+    },
+    {
+      "path": "README_RESIDUAL_8_12_14_18.md",
+      "bytes": 1545,
+      "sha256": "bab9b96aa01016356cbd0928db695ed080f064b5d3144f991a28b107037b16a0"
+    },
+    {
+      "path": "README_RESIDUAL_CONTROLLER.md",
+      "bytes": 10505,
+      "sha256": "e1045be0efe8b1bdc156b685da01b772174cccabf5efbac1ced1d301c4673375"
+    },
+    {
+      "path": "SETUP_REPORT.md",
+      "bytes": 7838,
+      "sha256": "11e52b81a0b7a2cec06c6057e39d2bbcaf73e08003a8acedf6cd167c16a65de6"
+    },
+    {
+      "path": "SOURCE_MAP.md",
+      "bytes": 3061,
+      "sha256": "1d61e3a1ead9cbecbd4c1079108974204a10c4ac19a92c21392f380cfc958c6d"
+    },
+    {
+      "path": "SPATIAL_100K.md",
+      "bytes": 3701,
+      "sha256": "7bf5fa62390f0e1d42880614da64776ce70146820701009b37cb24581228495b"
+    },
+    {
+      "path": "SPATIAL_25K.md",
+      "bytes": 1507,
+      "sha256": "9e0cf2ec93d78ba14fdf911215dd5172a6906b43decc7158788d9ce86dcce7f8"
+    },
+    {
+      "path": "action_ema.py",
+      "bytes": 4784,
+      "sha256": "fd0e7be2cf6723000e8983473a9ec150c3a93fa096e9b4c97d20095ac9179a7a"
+    },
+    {
+      "path": "activate_libero.sh",
+      "bytes": 474,
+      "sha256": "b399ea9fd5ded68a10f12e2feea014b68b0a9220a2c3e99117702465aa2b0891"
+    },
+    {
+      "path": "activate_mimicgen.sh",
+      "bytes": 424,
+      "sha256": "d6f8a9e328a9f2c4a3967b7b7a806ffce5297f58151abaf4b571d14c50c1968f"
+    },
+    {
+      "path": "activate_pi0.sh",
+      "bytes": 677,
+      "sha256": "b4319205804a433a679d5e2e6a39da3adf0b5fec111ac96d087000b8f7da4c99"
+    },
+    {
+      "path": "cache_libero_residual.py",
+      "bytes": 5250,
+      "sha256": "c24c57489c2f00d436701faacfa352a881a8d7cc87865838b5edd9984f7e0af6"
+    },
+    {
+      "path": "cache_libero_residual.sh",
+      "bytes": 922,
+      "sha256": "a742be174f7255dd5d93267e0a49298e5271fd6a76ece836fe41a57d85a220c6"
+    },
+    {
+      "path": "cache_mimicgen_residual.py",
+      "bytes": 5394,
+      "sha256": "662a5e1449e7d14672efff8261fb3788ecd0ec360c6a8da4864a05f6952f866c"
+    },
+    {
+      "path": "cache_mimicgen_residual.sh",
+      "bytes": 881,
+      "sha256": "bd065db9db8eee2e89a54cd3ce1d88f299af4e6adb5028a8c7461eae08ec3e3d"
+    },
+    {
+      "path": "cache_mimicgen_residual_5layers.py",
+      "bytes": 3949,
+      "sha256": "e2ca7bd1bdff6d978975d2ebbdaee80993998fa23acc96c5ea4417f18593938d"
+    },
+    {
+      "path": "cache_mimicgen_residual_5layers.sh",
+      "bytes": 778,
+      "sha256": "795c2b5e4508761be30e0694e72eb65fe6c93a75f6e7ce50a6bc9fa3a258abd2"
+    },
+    {
+      "path": "calibrate_action_filter.py",
+      "bytes": 1523,
+      "sha256": "e22893e25fa520d5ea83118263406c7921d72687b7d971da4b2b29f2d8434f01"
+    },
+    {
+      "path": "calibrate_median_ema.py",
+      "bytes": 2211,
+      "sha256": "b70a6d379698860b3cc5ec853c42e6eb53c223baf84fc4d957778a3f957e3923"
+    },
+    {
+      "path": "check_mimicgen_simulator.py",
+      "bytes": 1821,
+      "sha256": "99fa92203f10797d46bb1ff6a29b26f2b427bf228956134b66cfc4bfea39d7fc"
+    },
+    {
+      "path": "check_pilot_inference.py",
+      "bytes": 4548,
+      "sha256": "3a5b8128c35d4d690e301896868a20bed8d2c94d64153aaf8dd0da0c567961bf"
+    },
+    {
+      "path": "compute_libero_stats.py",
+      "bytes": 526,
+      "sha256": "decc76bef070bf8f7263e458778101c44334e9a3d22ead72526ecb6fecd8e22e"
+    },
+    {
+      "path": "compute_mimicgen_stats.py",
+      "bytes": 787,
+      "sha256": "dba14f2c590da7ae8567b9ae4852c1d52ada3c4c68e7a73a1e7f6c21cccb52c2"
+    },
+    {
+      "path": "compute_spatial_stats.py",
+      "bytes": 786,
+      "sha256": "8c60fbeb87c35bd51dea535ab9313a9a46e16db7886e6f51725fba31561cd755"
+    },
+    {
+      "path": "continue_mimicgen_100k.sh",
+      "bytes": 6295,
+      "sha256": "35d58875434630eb7f7d29f32bde18be42f3589f820fac180dd1df19993041c3"
+    },
+    {
+      "path": "continue_mimicgen_square.sh",
+      "bytes": 6016,
+      "sha256": "e2633e5ad0513d5c67cbf87b20bd26d640ec2c1ff38e249223ecd2c0021bc19a"
+    },
+    {
+      "path": "continue_pilot.sh",
+      "bytes": 3362,
+      "sha256": "d9fe27253d7a22a56255dd1cabfdfbc62a4bc068bba1a21675fe3a7b4be3a40b"
+    },
+    {
+      "path": "diagnose_pilot_actions.py",
+      "bytes": 5040,
+      "sha256": "9c9eeefae507ae2f00fd57118f9f7c5edbb088235172dace4bd182c7963c664a"
+    },
+    {
+      "path": "download_checkpoint.py",
+      "bytes": 1965,
+      "sha256": "b8c8358b8077acc3203ad845732551aef6b2e36bbfbb988fd462431dde82aaa4"
+    },
+    {
+      "path": "download_libero_dataset.py",
+      "bytes": 1580,
+      "sha256": "dbc2616821e040eb46b5b60568ed6833fbdc7e9f93ab8a24e82b6ddabb3bf992"
+    },
+    {
+      "path": "eval_action_ema.sh",
+      "bytes": 955,
+      "sha256": "f454727c67c6c2234ce2269b7ee8d3abee30749a1eaad08fa3563ce163e6ae35"
+    },
+    {
+      "path": "eval_libero_residual.sh",
+      "bytes": 1297,
+      "sha256": "c3e25ad26a837296673e121bec8e3a590308af702e55c2eec7bbcbc9a64093e9"
+    },
+    {
+      "path": "eval_mimicgen_action_ema.sh",
+      "bytes": 336,
+      "sha256": "ed25327e330430b3e4f55cc81032db159086ef188e4a75b23d796cac7aa04824"
+    },
+    {
+      "path": "eval_mimicgen_action_filter.sh",
+      "bytes": 1208,
+      "sha256": "de0a201d4e617bc4f1dd7388080a8a32a209fa851512a57bcafec978dece4dac"
+    },
+    {
+      "path": "eval_mimicgen_hybrid.sh",
+      "bytes": 833,
+      "sha256": "34a3ea2435edb983ef9a72e448acebd89ba6c8c86c46a0f17964ef8847aec739"
+    },
+    {
+      "path": "eval_mimicgen_residual.sh",
+      "bytes": 728,
+      "sha256": "3c92fb7b15edb9a9289e111bc573f852db30ec6d1b3a59b0cc4dbabdf10cfe52"
+    },
+    {
+      "path": "eval_mimicgen_residual_2layers.sh",
+      "bytes": 1969,
+      "sha256": "b8023b0bba7c98d2c9f95ad68fcc02f540e54f34fef5fa415a34fb31e481b7c4"
+    },
+    {
+      "path": "eval_mimicgen_residual_3layers.sh",
+      "bytes": 1983,
+      "sha256": "3bb0fd8f87a5bfd06446b096cdc7c9791f0feeb09bb65c4934f8c8a37af102d5"
+    },
+    {
+      "path": "eval_mimicgen_residual_5layers.sh",
+      "bytes": 1920,
+      "sha256": "493358c2177447b159a949c1151b81da1b5c8a9fd53db7c7ab2cd8f36bea2b15"
+    },
+    {
+      "path": "eval_mimicgen_residual_8_12_14_18.sh",
+      "bytes": 2139,
+      "sha256": "3ae6be6e4dc0503fc2a8ad9f181d9bca5c3fcfea9c59a7c094608c4ee09fbd0a"
+    },
+    {
+      "path": "eval_mimicgen_square.sh",
+      "bytes": 5793,
+      "sha256": "d15eb00311138c27c4ade2432dcff80f70bcab441fa47d94524bc61338eb260e"
+    },
+    {
+      "path": "eval_pilot.sh",
+      "bytes": 1689,
+      "sha256": "78b7af70166780d8a9b530b64103287d631729d60eb04d86b4769800b49632ff"
+    },
+    {
+      "path": "eval_spatial.sh",
+      "bytes": 3916,
+      "sha256": "834491f8195874524374810375e41bc12c1c34b4e848b8ab80cbd0ac50a8d565"
+    },
+    {
+      "path": "evaluate_libero_smoke.py",
+      "bytes": 6256,
+      "sha256": "aad7ec37e3b88bea6ad26b46357b6a9450be8093fdf31bc5ae520d3fe173c463"
+    },
+    {
+      "path": "evaluate_mimicgen_square.py",
+      "bytes": 8428,
+      "sha256": "bc2001f9ec9c342dd689e0528df077f04f43a64c8d997749a58c3368f48d2087"
+    },
+    {
+      "path": "evaluate_spatial.py",
+      "bytes": 6336,
+      "sha256": "afffa62619ad9aeb772e60439a3c430b9bb48863f5cf52d180b22d91f646c627"
+    },
+    {
+      "path": "hybrid_action_ema.py",
+      "bytes": 2770,
+      "sha256": "b64cebcf981c50241d3539f5f61b44805bbd21d2a9e4aff6eef43ff843b0eae5"
+    },
+    {
+      "path": "libero_residual_data.py",
+      "bytes": 3477,
+      "sha256": "c60f163848684de76616f6eb256da1c5846ae8f8ccb40d6da08901cf5400a7f5"
+    },
+    {
+      "path": "libero_residual_policy.py",
+      "bytes": 2056,
+      "sha256": "09c3031bfd9600cfa86d73ea8da342a684d4587c6a1624b07b73b62d50aa525e"
+    },
+    {
+      "path": "mimicgen_square_common.py",
+      "bytes": 1454,
+      "sha256": "9572c7ac5853a0b8fed1142e42e93a8409bda062d847b26729780d513181d944"
+    },
+    {
+      "path": "preflight_lora.py",
+      "bytes": 5030,
+      "sha256": "d64c76d70e8be8c1d0473d4316b416a448e5e9b2c4e745c977906582ee6f9f23"
+    },
+    {
+      "path": "preflight_mimicgen.py",
+      "bytes": 5748,
+      "sha256": "fa57354dfcbeecd15cc05a62647d70c5081847d0d4b665e7b8626e16933068b9"
+    },
+    {
+      "path": "preflight_spatial_accumulation.py",
+      "bytes": 5758,
+      "sha256": "f60c89ddb93864213f95178741f2301451fe3bae8ceb8318e4cec7338fc99f6d"
+    },
+    {
+      "path": "prepare_mimicgen_residual_2layers.py",
+      "bytes": 2551,
+      "sha256": "a62ebae1f9b99415ac77a70281a20c7fbeeb1d41a7ad3a7b7d20a74ca7e3850e"
+    },
+    {
+      "path": "prepare_mimicgen_residual_3layers.py",
+      "bytes": 2559,
+      "sha256": "a597da496c21032554004aa8242be7c5a4736507af7353585343eb3f3f75cc4c"
+    },
+    {
+      "path": "prepare_mimicgen_residual_8_12_14_18.py",
+      "bytes": 2565,
+      "sha256": "b8d6d1bb6e74ce0091f2d8c47ba9c0befa2f4dfafa3b7d210a1658c455b5b3eb"
+    },
+    {
+      "path": "prepare_mimicgen_square.py",
+      "bytes": 2832,
+      "sha256": "cdfe69d957eeacd62770a484259c04d4ec5df858507b2d08e5dd489a2f7e9aab"
+    },
+    {
+      "path": "prepare_spatial_dataset.py",
+      "bytes": 6726,
+      "sha256": "c8d899f18bd5e44f7bdcb8f2ba2031447994e9a158e0ac02099de1217c712b59"
+    },
+    {
+      "path": "replay_mimicgen_failures.py",
+      "bytes": 4981,
+      "sha256": "eaf46860ba2ea8a4d53a01d6673ef2682743922bb247e26794f65e9b4a9499c1"
+    },
+    {
+      "path": "residual_controller.py",
+      "bytes": 2198,
+      "sha256": "7e8a760e217b810a3307549b9ad44e375033c057cb56b4b95e22057ed7544490"
+    },
+    {
+      "path": "residual_five_layer_features.py",
+      "bytes": 2411,
+      "sha256": "8d644d713ac8bf5f66f1a4e3db5d3f4b1537f6dbd6f4a2bbc20e3b204cfadb63"
+    },
+    {
+      "path": "residual_layers_8_12_14_18.py",
+      "bytes": 818,
+      "sha256": "70d564bdfe2fc4a38841fdcdecaf12a8b078f8f6ec32dabef9585b353c288f0e"
+    },
+    {
+      "path": "residual_policy.py",
+      "bytes": 4320,
+      "sha256": "b99f7569b048784c77c3eb3b2268f79db7050c3a5d08b16fe255ccbc2ebb64ca"
+    },
+    {
+      "path": "residual_policy_factory.py",
+      "bytes": 1441,
+      "sha256": "1fce0176c60f79534ed95788bd618fe4ee197b39d2cf5329d28b3e4e184a992b"
+    },
+    {
+      "path": "residual_three_layer_features.py",
+      "bytes": 807,
+      "sha256": "8b4793783b55d62afeee53243cdcb0cc364bbc1d9087467332ebb08d24a629a5"
+    },
+    {
+      "path": "residual_two_layer_features.py",
+      "bytes": 799,
+      "sha256": "fc2a82c70984742c88ed3ebe18faafcb7603b4ffafde45605fc23a445d03f3a7"
+    },
+    {
+      "path": "resync_pi0.sh",
+      "bytes": 300,
+      "sha256": "0e33d5f214444e83c705dd22addf2b52b673f365a4cc99e3452dcff124436125"
+    },
+    {
+      "path": "serve_audited_policy.py",
+      "bytes": 3279,
+      "sha256": "9bf783ac57c595a2bdc0a3c3863dfa31b50339d941f6e39c5842cee1dd8af2ac"
+    },
+    {
+      "path": "smoke_libero.py",
+      "bytes": 1720,
+      "sha256": "63ff796dcae70e0e494f5596e69d58bde3f4afa13650103c74520a504741f77f"
+    },
+    {
+      "path": "smoke_pi0_fast.py",
+      "bytes": 4016,
+      "sha256": "d41abebcfe44b0408d11950cc6faecba9b31f98ee2f00a6eb63f3a9dd01966fa"
+    },
+    {
+      "path": "test_action_ema.py",
+      "bytes": 1354,
+      "sha256": "7a0781acd689c1986a9cc425fbf0129567bea7047b82916a5a90d34b8704ffc8"
+    },
+    {
+      "path": "test_action_ema_gamma.py",
+      "bytes": 1935,
+      "sha256": "113b85c7071b14bf27b820127b014c3060c8684aa8fe3a1e44acaf1f0308a371"
+    },
+    {
+      "path": "test_adaptive_action_ema.py",
+      "bytes": 1857,
+      "sha256": "9d416757cb9d624d9d93ed0d2b1c2037521ea3fda361f667c46f460e45ace33e"
+    },
+    {
+      "path": "test_gradient_accumulation.py",
+      "bytes": 2958,
+      "sha256": "64f2b83e81e4ab7f07a3863fc40589310098ef681126e6d9db13346ec198c891"
+    },
+    {
+      "path": "test_hybrid_action_ema.py",
+      "bytes": 2243,
+      "sha256": "70d727f19763a331e19dc7bb9b3d01ef0220f28064be179da09fabd36dd6d0eb"
+    },
+    {
+      "path": "test_libero_residual.py",
+      "bytes": 3969,
+      "sha256": "4f8fbc7400c84a4155c2f480db168014e4aa95f75d0956be236215581c5150e9"
+    },
+    {
+      "path": "test_median_action_ema.py",
+      "bytes": 1102,
+      "sha256": "aad77b3d5b6c18b82e032da72db962030aa85203118843e140c23c053bddfa23"
+    },
+    {
+      "path": "test_residual_controller.py",
+      "bytes": 3268,
+      "sha256": "91432cd35c76611b9a17d6248b2d70d3bc64c8d5a042407c418c7b4654ae262e"
+    },
+    {
+      "path": "tokenizer_experiment.py",
+      "bytes": 1434,
+      "sha256": "7d9f176f3f6fe73482a306673cb081949136497af69547787f12b42c59ba6fef"
+    },
+    {
+      "path": "train_libero_residual.sh",
+      "bytes": 1153,
+      "sha256": "c1431e6e03f8581857a0ead83ba6e499bef3eb565a7068077910f17c91cb7ecb"
+    },
+    {
+      "path": "train_mimicgen_residual.sh",
+      "bytes": 1362,
+      "sha256": "37f66ef5d169f2316f8dcc131194de0d7242f2014aa1f4abf1018ac8f64c5b31"
+    },
+    {
+      "path": "train_mimicgen_residual_2layers.sh",
+      "bytes": 1077,
+      "sha256": "77c4699b192ae4b12b83c2a59cd063f1fbc1d761853e45916c404b2834c146a2"
+    },
+    {
+      "path": "train_mimicgen_residual_3layers.sh",
+      "bytes": 1083,
+      "sha256": "16eab5599203cdd89a2c93e885e09b2fb649aa448890c3cd5f1a1b7e37cfcb94"
+    },
+    {
+      "path": "train_mimicgen_residual_5layers.sh",
+      "bytes": 1094,
+      "sha256": "36359cb1fddf78cbe356b1a2987bd2b700dc1a5a4e14aff61bcae5cefedaef9f"
+    },
+    {
+      "path": "train_mimicgen_residual_8_12_14_18.sh",
+      "bytes": 1098,
+      "sha256": "008435126642d7aad20e6bc7dfb6ce1937570859837ad5eeb3aa72c4410a1269"
+    },
+    {
+      "path": "train_mimicgen_square.sh",
+      "bytes": 4761,
+      "sha256": "2156da3bf54cdaeeba9e3f36f6987b3a415bcba7f934d5c9f28026cfdef515f1"
+    },
+    {
+      "path": "train_pilot.sh",
+      "bytes": 6264,
+      "sha256": "8c4929b526b35966958928b173c2ed37ad0534278663348e8ce1ada9a193a370"
+    },
+    {
+      "path": "train_residual_controller.py",
+      "bytes": 9022,
+      "sha256": "63e0b6641645d61685d2191b4581674cc6a96f1c7c21e865dc0e50f38630c245"
+    },
+    {
+      "path": "train_spatial.sh",
+      "bytes": 3326,
+      "sha256": "c27fe3044f3bc058e441b6985d8b4dde8675f360c3542d44ccb6f14405b37ff1"
+    },
+    {
+      "path": "train_spatial_100k.sh",
+      "bytes": 4584,
+      "sha256": "f8c2f695e5c10c1c6b30dda157b555d1655812d69dff41d05de69d446bfb1a63"
+    },
+    {
+      "path": "train_spatial_25k.sh",
+      "bytes": 4657,
+      "sha256": "c3e50ee90d8d00321e7c544da76275ec3dec6f8d57577cbf112851d18422bac9"
+    },
+    {
+      "path": "verify_gpu.py",
+      "bytes": 1197,
+      "sha256": "238f6fa8d7c44f84a06041beb0f86c05b9e625a833c9580a6ae33aac6867f196"
+    },
+    {
+      "path": "verify_libero_dataset.py",
+      "bytes": 2284,
+      "sha256": "be14b4299fb4dcbda98bfe104ead5a2b19d4b331703ddcfd83d3e6359b4a23b6"
+    },
+    {
+      "path": "verify_mimicgen_data.py",
+      "bytes": 1580,
+      "sha256": "3a090393fa7f205f14ccc093717f503227215d427faed26be050e1212f81299e"
+    },
+    {
+      "path": "verify_mimicgen_tokens.py",
+      "bytes": 1462,
+      "sha256": "161fe67f5e92319e3e069f1df0380efb72c83c710b6bf53612e371bdb27bf35a"
+    },
+    {
+      "path": "openpi/.dockerignore",
+      "bytes": 23,
+      "sha256": "e23eb8cbfb8fb15bf838725cfbad4bf098960edf829b9bce778f8ef835e6fff4"
+    },
+    {
+      "path": "openpi/.github/CODEOWNERS",
+      "bytes": 632,
+      "sha256": "33c54c163525c50346fc5eb110bff80f5831f9fffbdc2a3844377d814f3729c5"
+    },
+    {
+      "path": "openpi/.github/workflows/pre-commit.yml",
+      "bytes": 308,
+      "sha256": "10d44f6bfb4a32403a5cb7a279e7d0ccf39b2e9978214fb04584bded9b8a4945"
+    },
+    {
+      "path": "openpi/.github/workflows/test.yml",
+      "bytes": 669,
+      "sha256": "5ddee83abe84731df1896aad0bb931696b6b0f94ed5fa46251c4a42c6be2bbd5"
+    },
+    {
+      "path": "openpi/.gitignore",
+      "bytes": 3194,
+      "sha256": "20a9716ea75679df43e6decc2f968e37e736c6ae95e5f400182353c39374b83c"
+    },
+    {
+      "path": "provenance/openpi-upstream.gitmodules",
+      "bytes": 237,
+      "sha256": "a66abbc75450e842eda0aa31050b3e9c911c2ed9a90713e496d2b69bdb42faf1"
+    },
+    {
+      "path": "openpi/.pre-commit-config.yaml",
+      "bytes": 336,
+      "sha256": "5cb58628e068c3a25facd810095cb0e8f80ae7558d0a67ba197c01d9513baec5"
+    },
+    {
+      "path": "openpi/.python-version",
+      "bytes": 4,
+      "sha256": "bb0635f951bfd55419a47fc08a859192049b4d0949cf2d09a4d4d6b2cafafb94"
+    },
+    {
+      "path": "openpi/.vscode/settings.json",
+      "bytes": 264,
+      "sha256": "3d01cef7831f15a5f652fe6d1df850259b389224654cb35a952748cd41204f97"
+    },
+    {
+      "path": "openpi/CONTRIBUTING.md",
+      "bytes": 3364,
+      "sha256": "8da333112457fd84815551065bd3a3f80160054bbe89cc5794f57bfba2d50a89"
+    },
+    {
+      "path": "openpi/LICENSE",
+      "bytes": 11356,
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+    },
+    {
+      "path": "openpi/LICENSE_GEMMA.txt",
+      "bytes": 8431,
+      "sha256": "3e2c24001f9ef57bf7ec959a3658fbb49cdad113cdf394c264da9d16f9bdd132"
+    },
+    {
+      "path": "openpi/README.md",
+      "bytes": 23254,
+      "sha256": "567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5"
+    },
+    {
+      "path": "openpi/docs/docker.md",
+      "bytes": 1989,
+      "sha256": "5f6180bf09f1eed5c3705cf7e08536b7fd5d4f75b3ba0d938b932eff73ce4053"
+    },
+    {
+      "path": "openpi/docs/norm_stats.md",
+      "bytes": 5245,
+      "sha256": "62e4a39ea7fcdae53b4466942db348c3e38fc016b7f7a5273cafed649ebe614b"
+    },
+    {
+      "path": "openpi/docs/remote_inference.md",
+      "bytes": 3601,
+      "sha256": "5b62754525100f958a1bb5bcd0f5ea406c8d120e582c4785742072ccef79e24c"
+    },
+    {
+      "path": "openpi/examples/aloha_real/Dockerfile",
+      "bytes": 2650,
+      "sha256": "f863f70ad7c3359872602c7800abd210033f7ff480aee42279887e1a2ceb1ddf"
+    },
+    {
+      "path": "openpi/examples/aloha_real/README.md",
+      "bytes": 6440,
+      "sha256": "cd56d8224ee9500837fd83a00ffe7cc1c96008558a4a81fabaf96cdccf9a9a24"
+    },
+    {
+      "path": "openpi/examples/aloha_real/compose.yml",
+      "bytes": 1440,
+      "sha256": "94784b2314487217614f852fcc9bd74bbeb82d910e01faf72588415b7a4ff212"
+    },
+    {
+      "path": "openpi/examples/aloha_real/constants.py",
+      "bytes": 3296,
+      "sha256": "18cc0fd1ea80a32d970b637ae23aba255a06391d137afdc81664a78f87cb26e7"
+    },
+    {
+      "path": "openpi/examples/aloha_real/convert_aloha_data_to_lerobot.py",
+      "bytes": 7515,
+      "sha256": "5380876e2bd9e2b4294ebf818f7d18378090291cf4aae3481f08e0ed254a3284"
+    },
+    {
+      "path": "openpi/examples/aloha_real/env.py",
+      "bytes": 1741,
+      "sha256": "044494859ba6492cbe256c3f80bd1334734a98dc0181248a576777082934b107"
+    },
+    {
+      "path": "openpi/examples/aloha_real/main.py",
+      "bytes": 1408,
+      "sha256": "a6195287f804015d928793bcbfab427e21933745ce1d53224671c9e501182d14"
+    },
+    {
+      "path": "openpi/examples/aloha_real/real_env.py",
+      "bytes": 8650,
+      "sha256": "fd88593e5c6d924ed0060d5b03491fbf9db7a093e783eae217ede5c694f35e41"
+    },
+    {
+      "path": "openpi/examples/aloha_real/requirements.in",
+      "bytes": 183,
+      "sha256": "9a67592dc156f9d34b19459e8488c646112c5b2d72e6e095dd62bba3fda7bd29"
+    },
+    {
+      "path": "openpi/examples/aloha_real/requirements.txt",
+      "bytes": 3337,
+      "sha256": "f1f2f8c5ed31398f0fbecf8c707042747d887fe7e8a4999222a8fecb2e8c7550"
+    },
+    {
+      "path": "openpi/examples/aloha_real/robot_utils.py",
+      "bytes": 9867,
+      "sha256": "302608dc0f3c4e1c9338eaf3a5299eb91971a533575a3a9ccdd51f1b70e1c232"
+    },
+    {
+      "path": "openpi/examples/aloha_real/video_display.py",
+      "bytes": 958,
+      "sha256": "d988e685893cbfcacce25aed3cbedf312dd56dce939a720cd436025f6e97b626"
+    },
+    {
+      "path": "openpi/examples/aloha_sim/Dockerfile",
+      "bytes": 1488,
+      "sha256": "f61c9cc48db800726638b8ff3dd66650f09494d375064bf9064142156ecdc089"
+    },
+    {
+      "path": "openpi/examples/aloha_sim/README.md",
+      "bytes": 732,
+      "sha256": "3e25e00b1fb746176cfab0b74e8edad4a2c182f6fe1145f57d68bb67b38e5609"
+    },
+    {
+      "path": "openpi/examples/aloha_sim/compose.yml",
+      "bytes": 963,
+      "sha256": "17d39f772921047c62256b0771b019e69467457bccef557e954b6cd868e11c1b"
+    },
+    {
+      "path": "openpi/examples/aloha_sim/env.py",
+      "bytes": 1942,
+      "sha256": "e851d43c7ade89771ae5c8821a7e2dd7a9f1f14702e96f6f6f52afc95fc887d2"
+    },
+    {
+      "path": "openpi/examples/aloha_sim/main.py",
+      "bytes": 1370,
+      "sha256": "91b27ce04c741bb07355dcf650371caffa95e2d08fae2c089b3cbf899c8385f7"
+    },
+    {
+      "path": "openpi/examples/aloha_sim/requirements.in",
+      "bytes": 91,
+      "sha256": "7c9eb0a84ea9a2f015c2bdd59837bfc38884490a3fb9348cb476922b54ae7f18"
+    },
+    {
+      "path": "openpi/examples/aloha_sim/requirements.txt",
+      "bytes": 2629,
+      "sha256": "c655f18df0319eb5c0d0c4feff6029a103b24594967b556073d12acae0aca68c"
+    },
+    {
+      "path": "openpi/examples/aloha_sim/saver.py",
+      "bytes": 1270,
+      "sha256": "b8cb15e34610aa3f80ec1867826830843a554f8059cf963d1ec9465406b2d0ea"
+    },
+    {
+      "path": "openpi/examples/convert_jax_model_to_pytorch.py",
+      "bytes": 27520,
+      "sha256": "62980fda1a1b1a09167d413232a2a9295db8370e52b58a70cfba52ef5d88c440"
+    },
+    {
+      "path": "openpi/examples/droid/README.md",
+      "bytes": 6870,
+      "sha256": "6f64c246a78a5c203b4b032db9b6b6daea33e98d91ecdac1a3da30a9863290d0"
+    },
+    {
+      "path": "openpi/examples/droid/README_train.md",
+      "bytes": 7547,
+      "sha256": "e742f04cc0852a8bf86c4941dbaa6b436ab906bfca08c612371a50462acf5e4a"
+    },
+    {
+      "path": "openpi/examples/droid/compute_droid_nonidle_ranges.py",
+      "bytes": 4872,
+      "sha256": "9746b4a0033fea8c00139a9887830129486cf69ab99fc8a705656b9603cd34fe"
+    },
+    {
+      "path": "openpi/examples/droid/convert_droid_data_to_lerobot.py",
+      "bytes": 17080,
+      "sha256": "35bc003998f1abd857f2f7e7585c57c53d1db14675fdcb5ef32178491d90eec9"
+    },
+    {
+      "path": "openpi/examples/droid/main.py",
+      "bytes": 9825,
+      "sha256": "4bdbdbdde068ebb30ba90d62bf8c51df156b4baae5c5ac5870c08f7b03d4afc2"
+    },
+    {
+      "path": "openpi/examples/inference.ipynb",
+      "bytes": 5419,
+      "sha256": "4aeb5ff961dffe51d885b5d37454ec25900c2197df188d48f0ff27e4f1a7d7f2"
+    },
+    {
+      "path": "openpi/examples/libero/Dockerfile",
+      "bytes": 2615,
+      "sha256": "71bd6fcdfef3a059d417d9781dbdc3cdcbb1ddb2a557a626a2bf589777017173"
+    },
+    {
+      "path": "openpi/examples/libero/README.md",
+      "bytes": 2551,
+      "sha256": "a2caaf5459c4b01837b73aa93a6f69e8cdf10385b39c34eba36afa85f83fafe9"
+    },
+    {
+      "path": "openpi/examples/libero/compose.yml",
+      "bytes": 1349,
+      "sha256": "2a4e444b6fd0c351ad04138c9ca30673e4aea7183ee9fc7dd6a0b01ea3f0c93b"
+    },
+    {
+      "path": "openpi/examples/libero/convert_libero_data_to_lerobot.py",
+      "bytes": 3766,
+      "sha256": "199c309a601f23fa120e0c9ca3d8f7f2dba525924a60e79906fca4c6b9f03602"
+    },
+    {
+      "path": "openpi/examples/libero/main.py",
+      "bytes": 9194,
+      "sha256": "d53748c95804ada559e3ca867305b8f755d8651c4c7f4e2723ef80aea55a3943"
+    },
+    {
+      "path": "openpi/examples/libero/requirements.in",
+      "bytes": 177,
+      "sha256": "c663401736ee0fd80aa4e9a36415969c25db6e40283c370fb15544138c49452a"
+    },
+    {
+      "path": "openpi/examples/libero/requirements.txt",
+      "bytes": 2842,
+      "sha256": "821008c9804ec835bccee66ab93c177f47a62a845c010497b5aea06829331727"
+    },
+    {
+      "path": "openpi/examples/policy_records.ipynb",
+      "bytes": 3395,
+      "sha256": "37dab6297294c4779e6afa82af6e9efb8f979da85e588cdbf44b0b1938e83e62"
+    },
+    {
+      "path": "openpi/examples/simple_client/Dockerfile",
+      "bytes": 1256,
+      "sha256": "fac5ee3a4b2ab753f3b2f0251e3c1a054b6cbf7edb7934b1e9eb3f5943722bcf"
+    },
+    {
+      "path": "openpi/examples/simple_client/README.md",
+      "bytes": 589,
+      "sha256": "226a47bce1b8ad74967552cbe42afb711076b48b18a6cc36555cc5f60627e3a6"
+    },
+    {
+      "path": "openpi/examples/simple_client/compose.yml",
+      "bytes": 968,
+      "sha256": "545424c7c0d6ded3179f16ccb680f88931e82c74c27add2a35aa4b5f83c655fa"
+    },
+    {
+      "path": "openpi/examples/simple_client/main.py",
+      "bytes": 6281,
+      "sha256": "3f4445762376cfa25ce0812ecaacc225f4ddc7d2ab66d219563d6150803c6767"
+    },
+    {
+      "path": "openpi/examples/simple_client/requirements.in",
+      "bytes": 42,
+      "sha256": "1dd6cf5d680303d89414c7d4dd091bb8b0362a497c779982b3f30e745b018e83"
+    },
+    {
+      "path": "openpi/examples/simple_client/requirements.txt",
+      "bytes": 810,
+      "sha256": "87be8497bb0b14a910f8430c9dd18921d0a75c950610fb4b9de0adbb67cf216b"
+    },
+    {
+      "path": "openpi/examples/ur5/README.md",
+      "bytes": 5846,
+      "sha256": "fc5b84486abd83ba0a6116415c19859f73c64d7575936cec3b7188791b17f664"
+    },
+    {
+      "path": "openpi/packages/openpi-client/pyproject.toml",
+      "bytes": 388,
+      "sha256": "cacd55394787338bef9d6e7c2e4ecaefd0bc90b3362ac48fe20d9a7f201147d6"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/__init__.py",
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+      "bytes": 1404,
+      "sha256": "019b9d69cb26cc681331a2f95dbe60a2cc7b02d6d309c5d15b6457ab39798234"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/base_policy.py",
+      "bytes": 271,
+      "sha256": "88e98e0f06293f3c4767db675061664c4bba12f87242ba1e64377d1b8de8069e"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/image_tools.py",
+      "bytes": 2426,
+      "sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/image_tools_test.py",
+      "bytes": 1411,
+      "sha256": "4df4b0ba0b95ba5e47160039c3e837a64d50c802b419a588211dffbaa732589c"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+      "bytes": 1944,
+      "sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+      "bytes": 1643,
+      "sha256": "2c6dd236720dae716d7bdf842b7d506a165e9563bf9d4376c95289269adcb973"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/runtime/agent.py",
+      "bytes": 465,
+      "sha256": "b559885afd9645a91b9b6ee12a28513295474f987d11b16610fc0479dbe6de5b"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+      "bytes": 509,
+      "sha256": "c4d63952d1954bd4b72a3122223df36794812fea74cf1c7023433b5a90473c1c"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/runtime/environment.py",
+      "bytes": 1044,
+      "sha256": "1c12e5054b3401dec5f1f8b71eef0f625cb60e2b50784dcf19afa32c77107a7e"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/runtime/runtime.py",
+      "bytes": 3049,
+      "sha256": "3daa242a9ce61ffb210789ef3ba6b1e3cade9de757fcd36af7b174c530345ea8"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+      "bytes": 500,
+      "sha256": "d269a2af8ec4056beb310e5c3c97d4468af01549c7ef80dd905652d8ac64f85b"
+    },
+    {
+      "path": "openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+      "bytes": 2131,
+      "sha256": "36557cb0b91ccf31cd4fb4b508306850d76ed0feb4028dac5182d0f5a5d88005"
+    },
+    {
+      "path": "openpi/pyproject.toml",
+      "bytes": 3542,
+      "sha256": "7990520f8dae5317db02bbb28fd78c3aede3a2603fa24c6f0ed9e2bc4abfbede"
+    },
+    {
+      "path": "openpi/scripts/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "openpi/scripts/compute_norm_stats.py",
+      "bytes": 4042,
+      "sha256": "8a64773495b714d6b18eded99d7cf87eb19d1bb3dd4a9fb47172b03de5d56a38"
+    },
+    {
+      "path": "openpi/scripts/docker/compose.yml",
+      "bytes": 814,
+      "sha256": "43034f5049bfc4653cb6fbb99afc50a0478f333d158c37011102a7fbf465c550"
+    },
+    {
+      "path": "openpi/scripts/docker/install_docker_ubuntu22.sh",
+      "bytes": 1529,
+      "sha256": "1e143d1165e3cff184a5161d6c1b0c7634a507068167bde6aa7397c3926f7f38"
+    },
+    {
+      "path": "openpi/scripts/docker/install_nvidia_container_toolkit.sh",
+      "bytes": 986,
+      "sha256": "28ab1c1e3d572402e8f4aa11a48cc8f9df876360f8a58f8b10df723cda93531d"
+    },
+    {
+      "path": "openpi/scripts/docker/serve_policy.Dockerfile",
+      "bytes": 1916,
+      "sha256": "a6dd575b19625e5bec8aca459f3eacd7568e1329fd8928d7c74b2e62b700de0e"
+    },
+    {
+      "path": "openpi/scripts/serve_policy.py",
+      "bytes": 3687,
+      "sha256": "eccc0448b4873fd30a1fff3355c5de7a7c227138e6db04b7dcaa5bb38a6a5809"
+    },
+    {
+      "path": "openpi/scripts/train.py",
+      "bytes": 13695,
+      "sha256": "a524a0c2c443641f94f35b212de1ae801908c2c7d55c117027c8fbb03f136540"
+    },
+    {
+      "path": "openpi/scripts/train_pytorch.py",
+      "bytes": 25938,
+      "sha256": "baa66f1642e955d5cc2ec3f54d9495035df61d71b028b98ab4ebb1e240548311"
+    },
+    {
+      "path": "openpi/scripts/train_test.py",
+      "bytes": 718,
+      "sha256": "48398805809df6a07ce613d9060ab7e4e64fab60d573f79d16a7ba59a48219f6"
+    },
+    {
+      "path": "openpi/src/openpi/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "openpi/src/openpi/conftest.py",
+      "bytes": 339,
+      "sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3"
+    },
+    {
+      "path": "openpi/src/openpi/models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "openpi/src/openpi/models/gemma.py",
+      "bytes": 17146,
+      "sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a"
+    },
+    {
+      "path": "openpi/src/openpi/models/gemma_fast.py",
+      "bytes": 16332,
+      "sha256": "a56fc015a485abcef95624e9761dadb71ba4b4f538bd683aab6247492bb9efb3"
+    },
+    {
+      "path": "openpi/src/openpi/models/lora.py",
+      "bytes": 5342,
+      "sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289"
+    },
+    {
+      "path": "openpi/src/openpi/models/lora_test.py",
+      "bytes": 3138,
+      "sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085"
+    },
+    {
+      "path": "openpi/src/openpi/models/model.py",
+      "bytes": 12270,
+      "sha256": "0d74bc1d8f4623ac3d8e543710b8bf75f9b95e588a3ebf6127c659e001385cff"
+    },
+    {
+      "path": "openpi/src/openpi/models/model_test.py",
+      "bytes": 2966,
+      "sha256": "f8e71f195045d4e3ef1ddfafb2337fa52e5aa2f89bce1fde62f5cbfb67121f21"
+    },
+    {
+      "path": "openpi/src/openpi/models/pi0.py",
+      "bytes": 12887,
+      "sha256": "24b32d7c6ed5e409459afa8ca5af96a4dae09c2dcdf48e828907e411f4f12342"
+    },
+    {
+      "path": "openpi/src/openpi/models/pi0_config.py",
+      "bytes": 4435,
+      "sha256": "d321858c30b398126035ea2b6da09e1c422eeeebb5ebf8df631daf9dc77647fa"
+    },
+    {
+      "path": "openpi/src/openpi/models/pi0_fast.py",
+      "bytes": 14256,
+      "sha256": "2dcac559d37af49368228bf1b4c4904217a2f7d059dd72c585f840748c49743f"
+    },
+    {
+      "path": "openpi/src/openpi/models/pi0_test.py",
+      "bytes": 1631,
+      "sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe"
+    },
+    {
+      "path": "openpi/src/openpi/models/siglip.py",
+      "bytes": 12078,
+      "sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32"
+    },
+    {
+      "path": "openpi/src/openpi/models/tokenizer.py",
+      "bytes": 17517,
+      "sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c"
+    },
+    {
+      "path": "openpi/src/openpi/models/tokenizer_test.py",
+      "bytes": 807,
+      "sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517"
+    },
+    {
+      "path": "openpi/src/openpi/models/utils/fsq_tokenizer.py",
+      "bytes": 15928,
+      "sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f"
+    },
+    {
+      "path": "openpi/src/openpi/models/vit.py",
+      "bytes": 10266,
+      "sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93"
+    },
+    {
+      "path": "openpi/src/openpi/models_pytorch/gemma_pytorch.py",
+      "bytes": 13480,
+      "sha256": "225092e06509da0ae37bb9dca55c00d2804255bb1496f7c8700304b4c52a95eb"
+    },
+    {
+      "path": "openpi/src/openpi/models_pytorch/pi0_pytorch.py",
+      "bytes": 19128,
+      "sha256": "dcd7b6f508808ce4b7170a1720a4c62c6da04edae3652d16c94a469dca924e16"
+    },
+    {
+      "path": "openpi/src/openpi/models_pytorch/preprocessing_pytorch.py",
+      "bytes": 7264,
+      "sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6"
+    },
+    {
+      "path": "openpi/src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+      "bytes": 8958,
+      "sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6"
+    },
+    {
+      "path": "openpi/src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+      "bytes": 36392,
+      "sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde"
+    },
+    {
+      "path": "openpi/src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+      "bytes": 27688,
+      "sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c"
+    },
+    {
+      "path": "openpi/src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+      "bytes": 133,
+      "sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245"
+    },
+    {
+      "path": "openpi/src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+      "bytes": 50231,
+      "sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b"
+    },
+    {
+      "path": "openpi/src/openpi/policies/aloha_policy.py",
+      "bytes": 7543,
+      "sha256": "50d7ad972d80142ecb0f03b0780dacfd3af212946f4c9aac31a204b02db4543d"
+    },
+    {
+      "path": "openpi/src/openpi/policies/droid_policy.py",
+      "bytes": 3188,
+      "sha256": "99ebf8b252bde5e33dba7af10552137c421589ec88887bb0ee6507366d24da68"
+    },
+    {
+      "path": "openpi/src/openpi/policies/libero_policy.py",
+      "bytes": 4322,
+      "sha256": "d8679d99facc3fef48da07406081b20709ed872fcefdf7de67ede99422d623fa"
+    },
+    {
+      "path": "openpi/src/openpi/policies/policy.py",
+      "bytes": 5344,
+      "sha256": "a2ac5236e23b11d0f5a840d4a8fef148d89dba921d5452ec5dfcd5a6ffa46f20"
+    },
+    {
+      "path": "openpi/src/openpi/policies/policy_config.py",
+      "bytes": 4107,
+      "sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52"
+    },
+    {
+      "path": "openpi/src/openpi/policies/policy_test.py",
+      "bytes": 1127,
+      "sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683"
+    },
+    {
+      "path": "openpi/src/openpi/py.typed",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "openpi/src/openpi/serving/websocket_policy_server.py",
+      "bytes": 3051,
+      "sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026"
+    },
+    {
+      "path": "openpi/src/openpi/shared/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "openpi/src/openpi/shared/array_typing.py",
+      "bytes": 3402,
+      "sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026"
+    },
+    {
+      "path": "openpi/src/openpi/shared/download.py",
+      "bytes": 8862,
+      "sha256": "a12054a6ddaab4efa833c4ff49a1aba00c63759e4e88d6be21c1e0b3307fd9b2"
+    },
+    {
+      "path": "openpi/src/openpi/shared/download_test.py",
+      "bytes": 1490,
+      "sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072"
+    },
+    {
+      "path": "openpi/src/openpi/shared/image_tools.py",
+      "bytes": 4665,
+      "sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767"
+    },
+    {
+      "path": "openpi/src/openpi/shared/image_tools_test.py",
+      "bytes": 1418,
+      "sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe"
+    },
+    {
+      "path": "openpi/src/openpi/shared/nnx_utils.py",
+      "bytes": 2844,
+      "sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e"
+    },
+    {
+      "path": "openpi/src/openpi/shared/normalize.py",
+      "bytes": 5529,
+      "sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d"
+    },
+    {
+      "path": "openpi/src/openpi/shared/normalize_test.py",
+      "bytes": 1521,
+      "sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af"
+    },
+    {
+      "path": "openpi/src/openpi/training/checkpoints.py",
+      "bytes": 5763,
+      "sha256": "3cc32682ec3609e9075dabd991488edb9d7f6c045443f58963d733f99c468dbd"
+    },
+    {
+      "path": "openpi/src/openpi/training/config.py",
+      "bytes": 46481,
+      "sha256": "6a3b0be48860b8d6a8ac780310c835c5bdf04d350276a5a7230d8f4ad53aeea4"
+    },
+    {
+      "path": "openpi/src/openpi/training/data_loader.py",
+      "bytes": 19977,
+      "sha256": "4d0b055ac28527c1ab1f0ba7496057722c7c748c88564a8de2ff4fac650e97c9"
+    },
+    {
+      "path": "openpi/src/openpi/training/data_loader_test.py",
+      "bytes": 2487,
+      "sha256": "a0cf1bc293e8b0eb9bc5516bc05d30d9940da06c94fcfa1addca7267f8358815"
+    },
+    {
+      "path": "openpi/src/openpi/training/droid_rlds_dataset.py",
+      "bytes": 10886,
+      "sha256": "1d3a057a040240218234d7dbc6680ee4fe8256f2058531a0f9fefd3f7ee995a4"
+    },
+    {
+      "path": "openpi/src/openpi/training/gradient_accumulation.py",
+      "bytes": 1639,
+      "sha256": "103c45700a911b47062ebccfb8615d291f3094232d9f7f15be32071c3c94e62b"
+    },
+    {
+      "path": "openpi/src/openpi/training/misc/polaris_config.py",
+      "bytes": 9624,
+      "sha256": "c2ab92efb5e0d675118ad812113fd1c3cb3a62cdab5d79066014266e82df12d8"
+    },
+    {
+      "path": "openpi/src/openpi/training/misc/roboarena_config.py",
+      "bytes": 4804,
+      "sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01"
+    },
+    {
+      "path": "openpi/src/openpi/training/optimizer.py",
+      "bytes": 4005,
+      "sha256": "d3fceb87615e3f6dacfee8570ac7ab044b691d7d989ece87307b5b16840574ad"
+    },
+    {
+      "path": "openpi/src/openpi/training/sharding.py",
+      "bytes": 4099,
+      "sha256": "c67c4112a126ab097571c8a882fd1ee3f106b15b6e608e7205ac7f29b44ca985"
+    },
+    {
+      "path": "openpi/src/openpi/training/utils.py",
+      "bytes": 1217,
+      "sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6"
+    },
+    {
+      "path": "openpi/src/openpi/training/weight_loaders.py",
+      "bytes": 3738,
+      "sha256": "a54ac3222f81f8c6233241bc16b6f369c9416cdaa83f7058f96f7ddcfde1a3b4"
+    },
+    {
+      "path": "openpi/src/openpi/transforms.py",
+      "bytes": 15752,
+      "sha256": "a1b94e9e72849a18834778f229c6bb389a495eb7fbe0aa800edea728b9424ff4"
+    },
+    {
+      "path": "openpi/src/openpi/transforms_test.py",
+      "bytes": 4111,
+      "sha256": "d76f3ee8c5d7dc1c6fb6cb3b36b45ef30dd1de1ab5bc054bcb03deb79dcc06a8"
+    },
+    {
+      "path": "openpi/uv.lock",
+      "bytes": 811120,
+      "sha256": "58d7f0de3642d5bf32b2be6cfb3be0419c6d814b788d7bf987471c56ed484479"
+    },
+    {
+      "path": "fast-tokenizer/README.md",
+      "bytes": 3243,
+      "sha256": "eeb548bbc962193940ee078225752c2cd8df91fda904467fc2206f641743038f"
+    },
+    {
+      "path": "fast-tokenizer/processing_action_tokenizer.py",
+      "bytes": 6145,
+      "sha256": "6f021ca1f4c1b194ab6fa399d80baf3d642eadb17efb8f73301e4ac401522c20"
+    },
+    {
+      "path": "fast-tokenizer/processor_config.json",
+      "bytes": 253,
+      "sha256": "f40cfbb1020858fe1d48c0f946b0c1315a90d6e84aa82710036f24f4c167706a"
+    },
+    {
+      "path": "fast-tokenizer/special_tokens_map.json",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "fast-tokenizer/tokenizer.json",
+      "bytes": 686974,
+      "sha256": "6507dd709287fd018882120c0071787f1f62bad9f180f1e8c5235bda1b71fa78"
+    },
+    {
+      "path": "fast-tokenizer/tokenizer_config.json",
+      "bytes": 322,
+      "sha256": "b4030e2a13a0dea22e99d54c086fb320c71e66ad034ac4eba4301a0a27d5e5cd"
+    },
+    {
+      "path": "assets/action_filter/mimicgen_square_d0_median_gamma.json",
+      "bytes": 2017,
+      "sha256": "a706e4bf41ba0ac4dbabf8ef4df1c808c49ea107f70ec940c1b47053175ddc77"
+    },
+    {
+      "path": "assets/action_filter/mimicgen_square_d0_p75.json",
+      "bytes": 891,
+      "sha256": "bfe79f7b1905b07fda3f4f4efb46d2e0f6b4fd988d47686a194a93aef47511ed"
+    },
+    {
+      "path": "openpi/assets/pi0_fast_libero_5090_lora/physical-intelligence/libero/norm_stats.json",
+      "bytes": 1939,
+      "sha256": "8790d87a51ad4ce0d25742a46152cbb2f00c1974df7a06f1075bdad0e1267745"
+    },
+    {
+      "path": "openpi/assets/pi0_fast_libero_spatial_lora/local/libero_spatial/norm_stats.json",
+      "bytes": 1957,
+      "sha256": "cc07c8cab538aef3aaad0ae283f29e04760419013f441fe07a01fe0633d007c2"
+    },
+    {
+      "path": "openpi/assets/pi0_fast_mimicgen_square_lora/local/mimicgen_square_d0/norm_stats.json",
+      "bytes": 1877,
+      "sha256": "7811b171a5d1f6ce116a247a6a449062b2d63fdee6fde0b8c068b8c49845c4b5"
+    }
+  ]
+}
