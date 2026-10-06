@@ -114,11 +114,11 @@ The model lock uses JAX 0.5.3, Flax 0.10.2, PyTorch 2.7.1+cu128 and torchvision 
 
 ### 1. Clone and configure paths
 
-Install Conda using your preferred distribution if it is not already available. Clone this repository from its GitHub URL once published, then run from its root:
+Install Conda using your preferred distribution if it is not already available. Clone the published repository, then run from its root:
 
 ```bash
-# Replace this path with your clone location.
-cd /path/to/pi0_fast_github
+git clone https://github.com/kaushikb258/pi0_fast.git pi0_fast_github
+cd pi0_fast_github
 export PROJECT_ROOT="$PWD"
 
 # Configure source paths for THIS clone before creating caches or checkpoints.
@@ -496,6 +496,6 @@ Checkpoint/cache source-hash checks remain active. Original export hashes are in
 - [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO): independent manipulation benchmark; demonstrations used through Physical Intelligence's LeRobot conversion.
 - [MimicGen](https://github.com/NVlabs/mimicgen), [robosuite](https://github.com/ARISE-Initiative/robosuite), and [robomimic](https://github.com/ARISE-Initiative/robomimic): pinned simulator sources fetched separately, subject to their upstream licenses.
 
-The [four selected models](https://huggingface.co/kaushikb258/pi0-fast-libero-mimicgen) are public and verified at revision `a48a4a0850e9f253113afe0cb54ab67d35d639e1`. This code-only GitHub export has not yet been pushed to GitHub.
+The [four selected models](https://huggingface.co/kaushikb258/pi0-fast-libero-mimicgen) are public and verified at revision `a48a4a0850e9f253113afe0cb54ab67d35d639e1`. The code is published at [kaushikb258/pi0_fast](https://github.com/kaushikb258/pi0_fast).
 
 No new license for the original experiment code is assigned by this export. Retain upstream notices and review dataset/model licenses before redistribution.
